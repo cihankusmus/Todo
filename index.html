@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://todomvc.com/examples/react/node_modules/todomvc-app-css/index.css">
+    <link rel="stylesheet" href="assets/css/todo.css">
+    <script src="assets/js/todo.js" defer></script>
+    <title>Todo</title>
+</head>
+<body>
+    
+    <section class="todoapp">
+        <div>
+            <header class="header">
+                <h1>todos</h1>
+                <form id="todoForm">
+                    <input required class="new-todo" placeholder="What needs to be done?" value="">
+                </form>
+            </header>
+            <section class="main">
+                <input id="toggle-all" class="toggle-all" type="checkbox"><label for="toggle-all"></label>
+            <ul class="todo-list">
+                
+            </ul>
+            </section>
+            <footer class="footer"><span class="todo-count"><strong>x</strong><span> </span><span>item</span><span> left</span></span>
+            <ul class="filters">
+                <li>
+                    <label><input type="radio" checked name="filter" value="all">All</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="filter" value="active">Active</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="filter" value="completed">Completed</label>
+                </li>
+            </ul>
+            </footer>
+        </div>
+    </section>
+
+
+</body>
+</html>
